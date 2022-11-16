@@ -7,7 +7,7 @@ interface ISupraSValueFeed {
 
 }
 
-contract btcDivEth { //Example based on Solidity example https://supraoracles.com/docs/get-started/#step-3-get-the-s-value-crypto-price
+contract BtcDivEth { //Example based on Solidity example https://supraoracles.com/docs/get-started/#step-3-get-the-s-value-crypto-price
 
     ISupraSValueFeed public constant sValueFeed = ISupraSValueFeed(0x700a89Ba8F908af38834B9Aba238b362CFfB665F); //Shardeum Liberty 1.6 and 2.0.
     // ISupraSValueFeed public constant sValueFeed = ISupraSValueFeed(0x25DfdeD39bf0A4043259081Dc1a31580eC196ee7); //Goerli and Mumbai. Cross chain addresses supported: https://supraoracles.com/docs/get-started/networks
